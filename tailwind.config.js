@@ -7,6 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      spacing: {
+        '128': '32rem',
+        '144': '36rem',
+      },
+      maxWidth: {
+        '8xl': '88rem',
+        '9xl': '96rem',
+      },
       animation: {
         'rainbow': 'rainbow 8s linear infinite',
       },
