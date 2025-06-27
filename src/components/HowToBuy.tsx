@@ -27,7 +27,7 @@ const HowToBuy = () => {
     {
       icon: <FaExchangeAlt className="w-6 h-6" />,
       title: 'Swap on DEX',
-      description: 'Using Juptier or your favorite DEX, swap SOL for FAGGATRONS.',
+      description: 'Using Jupiter or your favorite DEX, swap SOL for FAGGATRONS.',
       color: 'from-pink-500 to-red-500'
     },
     {
