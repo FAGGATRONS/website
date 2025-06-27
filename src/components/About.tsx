@@ -27,16 +27,21 @@ const About = () => {
           </p>
         </div>
         <div className="flex flex-col md:flex-row items-center gap-12">
-          <div className="md:w-1/2">
-            <div className="relative w-full max-w-md h-144 mx-auto rounded-lg overflow-hidden">
-              <Image
-                src="/optimus.png"
-                alt="Cocktimus Prime - The Leader of FAGGATRONS"
-                fill
-                className="object-contain transition-transform hover:scale-105"
-                priority
-                sizes="(max-width: 960px)"
-              />
+          <div className="w-full md:w-1/2 px-4 flex items-center justify-center">
+            <div className="relative w-full max-w-md mx-auto flex items-center justify-center" style={{ minHeight: '300px', maxHeight: '80vh' }}>
+              <div className="w-full h-full flex items-center justify-center">
+                <img
+                  src="/optimus.png"
+                  alt="Cocktimus Prime - The Leader of FAGGATRONS"
+                  className="max-w-full max-h-full w-auto h-auto object-contain transition-transform hover:scale-105"
+                  style={{
+                    maxWidth: '100%',
+                    maxHeight: '100%',
+                    width: 'auto',
+                    height: 'auto',
+                  }}
+                />
+              </div>
             </div>
           </div>
           <div className="md:w-1/2">

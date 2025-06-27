@@ -24,21 +24,8 @@ export default function Home() {
     <div className="min-h-screen text-white flex flex-col">
       <Head>
         <title>FAGGATRONS</title>
-        <meta name="description" content="FAGGATRONS - More than meets the eye!" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="FAGGATRONS. More than meets the eye. Fighting Homophobicons across the galaxy." />
         <link rel="icon" href="/favicon.ico" />
-        
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://faggatrons.com/" />
-        <meta property="og:title" content="FAGGATRONS" />
-        <meta property="og:description" content="FAGGATRONS More than meets the eye!" />
-        
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://faggatrons.com/" />
-        <meta name="twitter:title" content="FAGGATRONS" />
-        <meta name="twitter:description" content="FAGGATRONS More than meets the eye!" />
       </Head>
       
       

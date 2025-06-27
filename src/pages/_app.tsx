@@ -24,10 +24,33 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>FAGGATRONS</title>
-        <meta name="description" content="FAGGATRONS - More than meets the eye!" />
+        <meta name="description" content="FAGGATRONS. More than meets the eye. Fighting Homophobicons across the galaxy." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/trans.png" type="image/png" />
         <link rel="shortcut icon" href="/trans.png" type="image/png" />
+        
+        {/* Primary Meta Tags */}
+        <meta name="title" content="FAGGATRONS" />
+        <meta name="description" content="FAGGATRONS. More than meets the eye. Fighting Homophobicons across the galaxy." />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://faggatrons.com/" />
+        <meta property="og:title" content="FAGGATRONS" />
+        <meta property="og:description" content="FAGGATRONS. More than meets the eye. Fighting Homophobicons across the galaxy." />
+        <meta property="og:image" content="https://faggatrons.com/banner.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://faggatrons.com/" />
+        <meta property="twitter:title" content="FAGGATRONS" />
+        <meta property="twitter:description" content="FAGGATRONS. More than meets the eye. Fighting Homophobicons across the galaxy." />
+        <meta property="twitter:image" content="https://faggatrons.com/banner.jpg" />
+        
+        {/* Additional Meta Tags */}
+        <meta name="theme-color" content="#000000" />
       </Head>
       <style jsx global>{`
         :root {
