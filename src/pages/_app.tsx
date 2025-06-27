@@ -2,6 +2,13 @@ import '@/styles/globals.css';
 import type { AppProps } from 'next/app';
 import { Inter, Space_Grotesk } from 'next/font/google';
 import Head from 'next/head';
+import dynamic from 'next/dynamic';
+
+// Dynamically import the SpaceBackground component with SSR disabled
+const SpaceBackground = dynamic(
+  () => import('@/components/SpaceBackground'),
+  { ssr: false }
+);
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
@@ -28,18 +35,11 @@ export default function App({ Component, pageProps }: AppProps) {
           --font-display: ${spaceGrotesk.style.fontFamily};
         }
       `}</style>
-      <div style={{
-        position: 'relative',
-        minHeight: '100vh',
-        backgroundColor: '#000000',
-        backgroundImage: 'none'
-      }}>
+      <div className="relative min-h-screen bg-black">
+        <SpaceBackground />
         <div 
-          className={`${inter.variable} ${spaceGrotesk.variable} font-sans`} 
-          style={{ 
-            position: 'relative',
-            backgroundColor: 'transparent'
-          }}
+          className={`${inter.variable} ${spaceGrotesk.variable} font-sans relative z-10`} 
+          style={{ backgroundColor: 'transparent' }}
         >
           <Component {...pageProps} />
         </div>

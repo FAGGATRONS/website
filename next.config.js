@@ -1,5 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Enable WebGL support
+  webpack: (config, { isServer }) => {
+    // Add Three.js and other 3D library aliases
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      'three/examples/jsm/': 'three/examples/jsm/'
+    };
+
+    // Important: return the modified config
+    return config;
+  },
   reactStrictMode: true,
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',

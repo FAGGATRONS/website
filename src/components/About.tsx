@@ -35,7 +35,7 @@ const About = () => {
                 fill
                 className="object-contain transition-transform hover:scale-105"
                 priority
-                sizes="(max-width: 960px) 100vw, 50vw"
+                sizes="(max-width: 960px)"
               />
             </div>
           </div>

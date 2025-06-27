@@ -168,14 +168,7 @@ body::before {
   pointer-events: none;
   width: 100vw;
   height: 100vh;
-  background:
-    linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,0.8) 80%, #000 100%),
-    radial-gradient(ellipse 100% 80% at 50% 20%, rgba(255,0,128,0.25) 0%, rgba(0,255,255,0.20) 30%, rgba(255,255,0,0.20) 60%, rgba(255,0,255,0.15) 80%, rgba(0,0,0,0) 100%),
-    linear-gradient(135deg, rgba(255,0,128,0.15) 0%, rgba(0,255,255,0.15) 25%, rgba(255,255,0,0.15) 50%, rgba(0,255,128,0.15) 75%, rgba(255,0,255,0.15) 100%);
-  background-blend-mode: normal, screen, normal;
-  animation: rainbow 20s ease-in-out infinite;
-  background-size: 100% 100%, 150% 150%, 200% 200%;
-  background-position: center, center, 0% 50%;
+  background: transparent;
 }
 
 /* Content backgrounds */
@@ -351,12 +344,7 @@ body::before {
   bottom: 0;
   border-radius: 0.5rem;
   padding: 3px;
-  background: var(--rainbow);
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  animation: rainbow 8s linear infinite;
+  background: transparent;
   pointer-events: none;
 }
 

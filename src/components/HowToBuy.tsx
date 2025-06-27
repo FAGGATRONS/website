@@ -42,7 +42,7 @@ const HowToBuy = () => {
     <section id="howtobuy" className="py-32 relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-gradient-to-b from-black to-gray-900/80"></div>
+        <div className="absolute inset-0 "></div>
         <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-5"></div>
       </div>
       
