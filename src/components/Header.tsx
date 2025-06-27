@@ -28,7 +28,7 @@ const Header = () => {
     }`}>
       <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center">
         <Link href="/" className="flex items-center group">
-          <div className="relative h-12 w-48 transition-transform group-hover:scale-105">
+          <div className="relative h-12 w-96 transition-transform group-hover:scale-105">
             <Image 
               src="/logo.png" 
               alt="FAGGATRONS" 
