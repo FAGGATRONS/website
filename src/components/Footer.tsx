@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="md:col-span-2">
             <div className="flex items-center mb-6">
-              <div className="relative h-48 w-48 mr-3">
+              <div className="relative h-12 w-48 mr-3">
                 <Image 
                   src="/logo.png" 
                   alt="FAGGATRONS" 
