@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const About = () => {
   const [copied, setCopied] = React.useState(false);
-  const contractAddress = '0x0000000000000000000000000000000000000000';
+  const contractAddress = 'HexBjaVP1VnTRLgfD4WmqqzhxEGuCYygpmJfPLLVpump';
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(contractAddress);
