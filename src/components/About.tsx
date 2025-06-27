@@ -28,7 +28,7 @@ const About = () => {
         </div>
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">
-            <div className="relative w-full max-w-md h-96 mx-auto rounded-lg overflow-hidden">
+            <div className="relative w-full max-w-md h-144 mx-auto rounded-lg overflow-hidden">
               <Image
                 src="/optimus.png"
                 alt="Cocktimus Prime - The Leader of FAGGATRONS"
