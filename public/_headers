@@ -1,0 +1,20 @@
+/*
+  # Security Headers
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  X-DNS-Prefetch-Control: on
+  X-Download-Options: noopen
+  X-Permitted-Cross-Domain-Policies: none
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+  Cross-Origin-Embedder-Policy: require-corp
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-site
+  
+  # Performance Headers
+  Cache-Control: public, max-age=0, must-revalidate
+  
+  # Vercel Headers
+  x-vercel-cache: HIT
+  x-vercel-id: ::1::5f7b9d9e-1c1f-4b1f-8c1f-9e1f9b1d1e1f::
