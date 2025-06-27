@@ -23,24 +23,22 @@ export default function Home() {
   return (
     <div className="min-h-screen text-white flex flex-col">
       <Head>
-        <title>FAGGATRONS - The Ultimate LGBTQ+ Memecoin</title>
-        <meta name="description" content="FAGGATRONS - More than meets the eye! The ultimate LGBTQ+ memecoin celebrating pride and diversity." />
+        <title>FAGGATRONS</title>
+        <meta name="description" content="FAGGATRONS - More than meets the eye!" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://faggatrons.com/" />
-        <meta property="og:title" content="FAGGATRONS - The Ultimate LGBTQ+ Memecoin" />
-        <meta property="og:description" content="More than meets the eye! The ultimate LGBTQ+ memecoin celebrating pride and diversity." />
-        <meta property="og:image" content="https://faggatrons.com/og-image.jpg" />
+        <meta property="og:title" content="FAGGATRONS" />
+        <meta property="og:description" content="FAGGATRONS More than meets the eye!" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://faggatrons.com/" />
-        <meta name="twitter:title" content="FAGGATRONS - The Ultimate LGBTQ+ Memecoin" />
-        <meta name="twitter:description" content="More than meets the eye! The ultimate LGBTQ+ memecoin celebrating pride and diversity." />
-        <meta name="twitter:image" content="https://faggatrons.com/twitter-card.jpg" />
+        <meta name="twitter:title" content="FAGGATRONS" />
+        <meta name="twitter:description" content="FAGGATRONS More than meets the eye!" />
       </Head>
       
       

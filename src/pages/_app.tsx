@@ -16,8 +16,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>FAGGATRONS - The Ultimate LGBTQ+ Memecoin</title>
-        <meta name="description" content="FAGGATRONS - More than meets the eye! The ultimate LGBTQ+ memecoin celebrating pride and diversity." />
+        <title>FAGGATRONS</title>
+        <meta name="description" content="FAGGATRONS - More than meets the eye!" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/trans.png" type="image/png" />
         <link rel="shortcut icon" href="/trans.png" type="image/png" />
