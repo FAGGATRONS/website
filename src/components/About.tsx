@@ -33,8 +33,9 @@ const About = () => {
                 src="/optimus.png"
                 alt="Cocktimus Prime - The Leader of FAGGATRONS"
                 fill
-                className="object-contain transform transition-transform hover:scale-105"
+                className="object-contain transition-transform hover:scale-105"
                 priority
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
           </div>
@@ -47,6 +48,7 @@ const About = () => {
                     alt="Transgender Pride Flag"
                     fill
                     className="object-contain"
+                    sizes="3rem"
                   />
                 </div>
               </div>

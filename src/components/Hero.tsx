@@ -21,14 +21,14 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex justify-center mt-12">
-          <div className="flex justify-center">
+          <div className="relative w-48 h-48 md:w-64 md:h-64">
             <Image 
               src="/michaelgay.png" 
               alt="Michael Gay" 
-              width={200}
-              height={200}
-              className="object-contain w-auto h-auto"
+              fill
+              className="object-contain"
               priority
+              sizes="(max-width: 768px) 12rem, 16rem"
             />
           </div>
         </div>
