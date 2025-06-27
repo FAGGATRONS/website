@@ -7,7 +7,7 @@ const Header = () => {
   const [copied, setCopied] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const contractAddress = '0x0000000000000000000000000000000000000000';
+  const contractAddress = 'HexBjaVP1VnTRLgfD4WmqqzhxEGuCYygpmJfPLLVpump';
 
   useEffect(() => {
     const handleScroll = () => {
